@@ -1,0 +1,21 @@
+{
+  "name": "angularjs8",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 1",
+    "build": "npm run prod-build --prefix ./src/angular8",
+    "server": "live-server",
+    "start": "npm run build && live-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.7.8",
+    "angular-cookies": "^1.7.8"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
